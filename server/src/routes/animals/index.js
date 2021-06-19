@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
+const animalsController = require("../../controllers/animals");
+
+// Ruta de demo para probar listar animales.
 // Utilizar controlador para consulta SQL.
 router.get("/adoptionlist", (req, res) => {
   const animalsForAdoption = [
@@ -14,14 +17,18 @@ router.get("/adoptionlist", (req, res) => {
   res.json(animalsForAdoption);
 });
 
+// Ruta real para pedir listado de animales.
+router.get("/adoptionlistR", animalsController.list);
+
 // Ruta para un animal en especifico.
-router.get("/damoanimal", (req, res) => {
+router.get("/demoanimal", (req, res) => {
   const animal = {
     id: 32,
     name: "Afrika",
     age: 8,
     specie: "Gato",
   };
+  res.json(animal);
 });
 
 module.exports = router;

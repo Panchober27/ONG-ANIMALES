@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <div className="container-fluid">
+      <div className="container">
         {/* Distintas vistas, Madres! */}
         <Switch>
           <Route path="/" exact>

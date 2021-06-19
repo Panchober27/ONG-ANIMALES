@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(require("./routes"));
+app.use(require("./routes/animals"));
 
 app.listen(port, () => {
   console.log(`Animal ONG Server started on port ${port}`);
