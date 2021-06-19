@@ -1,0 +1,4 @@
+Archivo de Documentacion de la base de datos hecha en MongoDB.
+
+Esto es una idea para futuro, es decir mas adelante migrar la base de datos de mysql a MongoDB
+

@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 
-
 // Utilizar controlador para consulta SQL.
 router.get("/adoptionlist", (req, res) => {
   const animalsForAdoption = [
@@ -15,7 +14,14 @@ router.get("/adoptionlist", (req, res) => {
   res.json(animalsForAdoption);
 });
 
-
-router.get('/')
+// Ruta para un animal en especifico.
+router.get("/damoanimal", (req, res) => {
+  const animal = {
+    id: 32,
+    name: "Afrika",
+    age: 8,
+    specie: "Gato",
+  };
+});
 
 module.exports = router;
