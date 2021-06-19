@@ -1,12 +1,15 @@
 import React, { Fragment } from "react";
+import Carousel from "./Carousel";
 
 const Landing = () => {
   return (
     <Fragment>
-      <div className="row">
         <h3>Vista Animales</h3>
+      <div className="row">
         <div className="row">
-          <div className="col-12 col-md-9">Col Grande, Carousel</div>
+          <div className="col-12 col-md-9">
+            <Carousel />
+          </div>
           <div className="col-12 col-md-3">
             Col Chica, Post ong, Imagen, lorem
           </div>

@@ -23,13 +23,12 @@ const Animals = () => {
   return (
     <Fragment>
       <h1>Animales</h1>
-
       <div className="row">
         <div className="col-12 col-md-6">
           <SingleAnimal />
         </div>
         <div className="col-12 col-md-6">
-          <h4>Listado Animals Para Adopción</h4>
+          <h4>Listado Animales Para Adopción</h4>
           <ul>
             {animals.map((item) => (
               <li key={item.id}>
