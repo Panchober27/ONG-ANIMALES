@@ -1,12 +1,46 @@
 import React from "react";
+import NavBar from "./components/navbar";
 import Landing from "./pages/landing";
+import Animals from "./pages/animals";
+import Donations from "./pages/donations";
+import Login from './pages/login';
+import Register from './pages/register';
+import About from './pages/about';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="container-fluid">
-      <h1>Animal ONG CLient App</h1>
-      <Landing />
-    </div>
+    <Router>
+      <NavBar />
+      <div className="container-fluid">
+        {/* Distintas vistas, Madres! */}
+        <Switch>
+          <Route path="/" exact>
+            <Landing />
+          </Route>
+          <Route path="/animals">
+            <Animals />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/register">
+            <Register />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/donations">
+            <Donations />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
