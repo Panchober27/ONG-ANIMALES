@@ -11,7 +11,7 @@ const Landing = () => {
         </div>
         <div className="col-12 col-md-3">
           <img src="https://via.placeholder.com/300" />
-          <div className="card">
+          <div className="card" style={{ width: "19rem" }}>
             <div className="card-boyd">
               <h5 className="card-title">Col Chica</h5>
               <p className="card-text">
