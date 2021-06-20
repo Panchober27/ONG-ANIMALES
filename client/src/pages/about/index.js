@@ -7,7 +7,7 @@ const About = () => {
         <div class="card" style={{ width: "20rem" }}>
           <div class="card-body">
             <h5 class="card-title">Quienes Somos</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
             <p class="card-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Blanditiis itaque eum repudiandae officia ut quae sunt recusandae
@@ -23,7 +23,7 @@ const About = () => {
         <div class="card" style={{ width: "20rem" }}>
           <div class="card-body">
             <h5 class="card-title">Misión</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
             <p class="card-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Voluptatem quas voluptas vel, iusto unde explicabo hic laborum
@@ -39,7 +39,7 @@ const About = () => {
         <div class="card" style={{ width: "20rem" }}>
           <div class="card-body">
             <h5 class="card-title">Visión</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
             <p class="card-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
               dolorem saepe eos distinctio error aspernatur est ex, ducimus

@@ -93,7 +93,7 @@ visite** [Sito deployado](https:///).
 
 ## Desarrollado por [Francisco Berwart](https://github.com/Panchober27) ✒️
 ## Desarrollado por [Nicolas Hernandez](https://github.com/nicoseba) ✒️
-## Desarrollado por [Mario Silva](https://github.com/https://github.com/MegaRayloc) ✒️
+## Desarrollado por [Mario Silva](https://github.com/MegaRayloc) ✒️
 ## Desarrollado por [Sofia Vazquez] ✒️
 
 

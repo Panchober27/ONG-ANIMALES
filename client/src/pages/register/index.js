@@ -6,38 +6,95 @@ const Register = () => {
    */
 
   return (
-    <Fragment>
-      <h1>REGISTER</h1>
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Registro</h5>
-          <form>
-            <input
-              className="form-control"
-              type="email"
-              name="email"
-              placeholder="Nombre Usuario"
-            />
-            <input
-              className="form-control"
-              type="text"
-              name="lastName"
-              placeholder="Apellido Paterno"
-            />
-            <input
-              className="form-control"
-              type="password"
-              name="password"
-              placeholder="Contraseña"
-            />
-            <button
-            className="btn btn-success form-control"
-            type="submit"
-            >Registrame</button>
-          </form>
+    <form className="row g-3">
+      <div className="col-md-6">
+        <label for="inputEmail4" className="form-label">
+          Email
+        </label>
+        <input type="email" className="form-control" id="inputEmail4" />
+      </div>
+      <div className="col-md-6">
+        <label for="inputPassword4" className="form-label">
+          Password
+        </label>
+        <input type="password" className="form-control" id="inputPassword4" />
+      </div>
+      <div className="col-md-6">
+        <label for="inputEmail4" className="form-label">
+          Nombres
+        </label>
+        <input type="text" className="form-control" id="inputEmail4" />
+      </div>
+      <div className="col-md-6">
+        <label for="inputPassword4" className="form-label">
+        Confirmar Password
+        </label>
+        <input type="password" className="form-control" id="inputPassword4" />
+      </div>
+      <div className="col-md-6">
+        <label for="inputEmail4" className="form-label">
+          Apellido Paterno
+        </label>
+        <input type="text" className="form-control" id="inputEmail4" />
+      </div>
+      <div className="col-md-6">
+        <label for="inputPassword4" className="form-label">
+        Apellido Materno
+        </label>
+        <input type="text" className="form-control" id="inputPassword4" />
+      </div>
+      <div className="col-md-6">
+        <label htmlFor="" className="form-label">
+          RUN
+        </label>
+        <input type="text" className="form-control" />
+      </div>
+      <div className="col-md-6">
+        <label htmlFor="" className="form-label">
+          Codigo Postal
+        </label>
+        <input type="text" className="form-control" />
+      </div>
+      <div className="col-12">
+        <label for="inputAddress2" className="form-label">
+          Dirección
+        </label>
+        <input
+          type="text"
+          className="form-control"
+          id="inputAddress2"
+          placeholder="Calle, Numero, depto, bloque, etc..."
+        />
+      </div>
+      <div className="col-md-6">
+        <label for="inputCity" className="form-label">
+          Ciudad
+        </label>
+        <input type="text" className="form-control" id="inputCity" />
+      </div>
+      <div className="col-md-4">
+        <label for="inputState" className="form-label">
+          Comuna
+        </label>
+        <select id="inputState" className="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div className="col-12">
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" id="gridCheck" />
+          <label className="form-check-label" for="gridCheck">
+            Check me out
+          </label>
         </div>
       </div>
-    </Fragment>
+      <div className="col-12">
+        <button type="submit" className="btn btn-success">
+          Registrame
+        </button>
+      </div>
+    </form>
   );
 };
 
