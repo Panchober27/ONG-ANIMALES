@@ -41,20 +41,13 @@ El registro e inicio de sesion de usuarios se trabajara con FireBase para poder 
 
 #### Creare Carpetas que contendran los archivos con el codigo requerido para la evaluación. 📂
 
-**/src:**
-  * Carpeta que contendra todo el contenido de configuración y codigo de la App.
-    En esta carpeta se encontraran archivos(app.js) y carpetas(routes/index.js) que no corresponden a la evaluación ni el ramo, ya que todo eso se trabajara a futuro con PHP y Mysql
-- **/public**:
-    * Carpeta que contendra los CSS y las Imagenes necesarias, más algun JavaScript de chorezas
-- **/views**:
-    * Carpeta que contendra los html requeridos para las evaluaciónes
-
+### Aqui ira la estrucra de las aplicaiones de Backend y FrontEnd
 
 
 
 ## Desplegado Local y Remoto de las Aplicaciones. 📦
 
-### Desplegado Local 🖥️
+### Desplegado Local Aplicación de Servidor: server 👨‍💻🖥️
 
 _Para desplegar de manera local la aplicación de Backend (server), se debe tener instalado en su pc: [NodeJS y NPM](https://nodejs.org/es/) 
 Luego de descargar el proyecto, desde la carpeta raiz del proyecto: ...\web-site\server
@@ -77,8 +70,8 @@ npm start
 npm run dev
 ```
 
-### Desplegado Local Aplicación de cliente: client 🖥️
-_Para desplegar de manera local la aplicacion de cliente (client), se debe tener instalado NodeJS y NPM.
+### Desplegado Local Aplicación de cliente: client 🖥️🙆‍♂️
+_Para desplegar de manera local la aplicacion de cliente (client), se debe tener instalado [NodeJS y NPM](https://nodejs.org/es/).
 Luego de descargar el proyecto, desde la carpeta raiz del proyecto: ...\web-site\client _
 #### Instalar dependencias del proyecto.
 
@@ -99,9 +92,9 @@ visite** [Sito deployado](https:///).
 
 
 ## Desarrollado por [Francisco Berwart](https://github.com/Panchober27) ✒️
-## Desarrollado por [Nicolas Hernandez](https://github.com/https://github.com/nicoseba) ✒️
-## Desarrollado por [Mario Silva](https://github.com/https://github.com/https://github.com/MegaRayloc) ✒️
-## Desarrollado por [Sofia Vazquez]() ✒️
+## Desarrollado por [Nicolas Hernandez](https://github.com/nicoseba) ✒️
+## Desarrollado por [Mario Silva](https://github.com/https://github.com/MegaRayloc) ✒️
+## Desarrollado por [Sofia Vazquez] ✒️
 
 
 
