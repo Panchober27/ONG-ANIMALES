@@ -1,17 +1,14 @@
 import React from "react";
 import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 import Landing from "./pages/landing";
 import Animals from "./pages/animals";
 import Donations from "./pages/donations";
-import Login from './pages/login';
-import Register from './pages/register';
-import About from './pages/about';
+import Login from "./pages/login";
+import Register from "./pages/register";
+import About from "./pages/about";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -40,6 +37,8 @@ function App() {
           </Route>
         </Switch>
       </div>
+      {/* Footer del sitio. */}
+      <Footer />
     </Router>
   );
 }

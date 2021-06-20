@@ -10,21 +10,21 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://via.placeholder.com/550"
+            src="https://via.placeholder.com/750x350"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://via.placeholder.com/650"
+            src="https://via.placeholder.com/750x350"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://via.placeholder.com/750"
+            src="https://via.placeholder.com/750x350"
             className="d-block w-100"
             alt="..."
           />

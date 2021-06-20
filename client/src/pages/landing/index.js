@@ -4,18 +4,27 @@ import Carousel from "./Carousel";
 const Landing = () => {
   return (
     <Fragment>
-        <h3>Vista Animales</h3>
+      <h3>Vista Animales</h3>
       <div className="row">
-        <div className="row">
-          <div className="col-12 col-md-9">
-            <Carousel />
-          </div>
-          <div className="col-12 col-md-3">
-            Col Chica, Post ong, Imagen, lorem
+        <div className="col-12 col-md-9">
+          <Carousel />
+        </div>
+        <div className="col-12 col-md-3">
+          <img src="https://via.placeholder.com/300" />
+          <div className="card">
+            <div className="card-boyd">
+              <h5 className="card-title">Col Chica</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus alias exercitationem vero porro nostrum odit animi,
+                iste cum incidunt minima.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div className="row">
+      <br />
+      <div className="row pt-10">
         <div className="col-12 col-md-4">
           <div class="card" style={{ width: "14rem" }}>
             <img
