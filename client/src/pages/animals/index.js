@@ -15,7 +15,7 @@ const Animals = () => {
   }, []);
 
   const getAnimals = async () => {
-    const data = await fetch("http://localhost:3300/adoptionlist");
+    const data = await fetch("http://localhost:3300/adoptionlistR");
     const animalList = await data.json();
     setAnimals(animalList);
   };
@@ -31,9 +31,10 @@ const Animals = () => {
           <h4>Listado Animales Para Adopción</h4>
           <ul>
             {animals.map((item) => (
-              <li key={item.id}>
+              <li key={item.id_animal}>
                 {" "}
-                {item.name} - {item.age} - {item.specie}{" "}
+                Nombre: {item.nombre_animal} - Edad: {item.edad} - Especie:{" "}
+                {item.especie_animal}{" "}
               </li>
             ))}
           </ul>

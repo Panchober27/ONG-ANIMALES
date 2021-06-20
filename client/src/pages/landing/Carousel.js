@@ -1,4 +1,6 @@
 import React from "react";
+import PyG from '../../assets/img/pyg.png';
+
 
 const Carousel = () => {
   return (
@@ -10,7 +12,7 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://via.placeholder.com/750x350"
+            src={PyG}
             className="d-block w-100"
             alt="..."
           />
