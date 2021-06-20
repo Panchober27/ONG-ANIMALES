@@ -1,6 +1,10 @@
 import React from "react";
 
 const Login = () => {
+  /**
+   * Añadir validaciones utilizando React Hook Forms
+   */
+
   return (
     <form className="row g-3">
       <div className="col-md-6">
