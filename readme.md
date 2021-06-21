@@ -2,10 +2,10 @@
 
 _Asignatura: Ingeniería de Software.
 Profesor: Yonnys Ysaias Escalona Medina.
-Estudiantes: Fracisco Ignacio Berwart Ramirez.
-             Nicolás Sebastián Hernández González
-             Mario Aandrés Silva Peralta
-             Sofía Antonia Vásquez Bberríos
+Estudiantes: Fracisco Ignacio Berwart Ramirez;
+             Nicolás Sebastián Hernández González;
+             Mario Aandrés Silva Peralta;
+             Sofía Antonia Vásquez Berríos;
 _
 
 
@@ -24,16 +24,16 @@ _El sittio web contara con 2 aplicaciones, una de servidor, escrita en NodeJS y 
 Se utilizara una base de datos Mysql para la informacion de usuarios, animales, etc...
 El registro e inicio de sesion de usuarios se trabajara con FireBase para poder realizar enlaces hacia las cuentas de Facebook, Google, Twitter, etc.. de los usuarios._
 
-* [NodeJS](http:///_) - Entorno JavasCript del lado del servidor.
-* [Express](https://_/) - FrameWork/librería de JavaScript para NodeJS.
-* [Morgan](https://_/) - Modulo de NodeJS para mostrar por consola las peticiones al servidor.
-* [ReactJS](https://_/) - Librería de JavaScript para construir aplicaciones de FrontEnd.
-* [BootsTrap5](https://_/) - FrameWork de CSS para crear componentes de Bootstrap.
-* [FontAwsome](https://_/) - FrameWork de CSS para iconos que provee FontAwsome.
-* [AnimateCSS](https://_/) - FrameWork de CSS para dar animaciones a los componentes de los html.
-* [Xampp](https://_/) - Base de datos Mysql Local para desarrollo y testing de producción
-* [CleverCloud](https://_/) - Base de datos Mysql Remota para produccion.
-* [MongoDB](https://_/) - Base de datos NOsql para datos rapidos.
+* [NodeJS](https://nodejs.org/es/) - Entorno JavasCript del lado del servidor.
+* [Express](https://expressjs.com/es//) - FrameWork/librería de JavaScript para NodeJS.
+* [Morgan](https://www.npmjs.com/package/morgan) - Modulo de NodeJS para mostrar por consola las peticiones al servidor.
+* [ReactJS](https://es.reactjs.org/) - Librería de JavaScript para construir aplicaciones de FrontEnd.
+* [BootsTrap5](https://getbootstrap.com/) - FrameWork de CSS para crear componentes de Bootstrap.
+* [FontAwsome](https://fontawesome.com/) - FrameWork de CSS para iconos que provee FontAwsome.
+* [AnimateCSS](https://animate.style/) - FrameWork de CSS para dar animaciones a los componentes de los html.
+* [Xampp](https://www.apachefriends.org/es/index.html) - Base de datos Mysql Local para desarrollo y testing de producción
+* [CleverCloud](https://www.clever-cloud.com/en/) - Base de datos Mysql Remota para produccion.
+* [MongoDB](https://www.mongodb.com/) - Base de datos NOsql para datos rapidos.
 
 
 
