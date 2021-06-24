@@ -1,4 +1,4 @@
-# Evaluacion 3 Ingeniería de Software
+# Evaluación 3 Ingeniería de Software
 
 _Asignatura: Ingeniería de Software.
 Profesor: Yonnys Ysaias Escalona Medina.
@@ -18,7 +18,7 @@ Desarrollar un prototipo de software del caso escogido.
 
 
 
-## Herramientas de Desarrollo para la Evaluación 1. 🛠️
+## Herramientas de Desarrollo para la Evaluación. 🛠️
 
 _El sittio web contara con 2 aplicaciones, una de servidor, escrita en NodeJS y Express, más una aplicacion de cliente construida en ReactJS
 Se utilizara una base de datos Mysql para la informacion de usuarios, animales, etc...

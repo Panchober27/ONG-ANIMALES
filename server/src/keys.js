@@ -1,10 +1,10 @@
 // Archivo con las llaves de conexion a la base de datos.
 module.exports = {
   database: {
-    host: "localhost",
-    user: "root",
-    password: "",
+    host: "bx8lw3yugtfsygz1fbf8-mysql.services.clever-cloud.com",
+    user: "ujp7evvnc8snlxdh",
+    password: "Fg12c6qdFxC1nYUzaSzz",
     port: 3306,
-    database: "ong_animales",
+    database: "bx8lw3yugtfsygz1fbf8",
   },
 };

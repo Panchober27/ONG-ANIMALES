@@ -1,4 +1,5 @@
 import React from "react";
+import './login.css'
 
 const Login = () => {
   /**
@@ -6,7 +7,9 @@ const Login = () => {
    */
 
   return (
-    <h1>Login</h1>
+    <form className="row g-3">
+
+    </form>
   );
 };
 
