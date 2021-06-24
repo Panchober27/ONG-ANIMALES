@@ -1,5 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import SingleAnimal from "./SingleAnimal";
+// import Table from "./Table";
 
 const Animals = () => {
   /**
@@ -25,6 +26,7 @@ const Animals = () => {
       <h1>Animales</h1>
       <div className="row">
         <div className="col-12 col-md-6">
+          {/* <Table /> */}
           <SingleAnimal />
         </div>
         <div className="col-12 col-md-6">

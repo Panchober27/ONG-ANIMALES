@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Carousel from "./Carousel";
-import angryDog from '../../assets/img/perro-enojon.png';
+import angryDog from "../../assets/img/perro-enojon.png";
 
 const Landing = () => {
   return (
@@ -11,7 +11,7 @@ const Landing = () => {
           <Carousel />
         </div>
         <div className="col-12 col-md-3">
-          <img src={angryDog} />
+          <img alt="..." src={angryDog} />
           <div className="card" style={{ width: "19rem" }}>
             <div className="card-boyd">
               <h5 className="card-title">Col Chica</h5>
