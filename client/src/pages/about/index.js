@@ -1,8 +1,28 @@
 import React from "react";
+import Lottie from "react-lottie";
+// Cargar componente de Lottie
+import noteData from "../../assets/lotties/7566-dancing-dog.json";
+
+// Configuración de componente Lottie
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYmid slice",
+  },
+};
 
 const About = () => {
   return (
     <div className="row mt-4">
+      {/* Lottie Component column */}
+      <div className="col-12">
+        <Lottie
+          options={{ animationData: noteData, ...defaultOptions }}
+          width={150}
+          height={150}
+          />
+      </div>
       <div className="col-12 col-md-4">
         <div class="card" style={{ width: "20rem" }}>
           <div class="card-body">

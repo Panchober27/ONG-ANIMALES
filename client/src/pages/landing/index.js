@@ -1,10 +1,24 @@
 import React, { Fragment } from "react";
 import Carousel from "./Carousel";
 import angryDog from "../../assets/img/perro-enojon.png";
+import Lottie from "react-lottie";
+import noteData from "../../assets/lotties/4888-dog-icon.json";
+
+// Configuracion de animaciones de Lottie, se puede pasar directo el noteData, pero para
+// usar mas de un 'Lottie', conviene manejarlos de manera separada.
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYmid slice",
+  },
+};
 
 const Landing = () => {
   return (
     <Fragment>
+      {/* Lottie Component */}
+      <Lottie options={{ animationData: noteData, ...defaultOptions }} width={150} height={150} />
       <h3>Vista Animales</h3>
       <div className="row">
         <div className="col-12 col-md-9">
