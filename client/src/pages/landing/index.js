@@ -1,8 +1,12 @@
 import React, { Fragment } from "react";
+import Cards from "./Cards";
 import Carousel from "./Carousel";
 import angryDog from "../../assets/img/perro-enojon.png";
 import Lottie from "react-lottie";
 import noteData from "../../assets/lotties/4888-dog-icon.json";
+
+// Demo para pdir Cards!!!
+import Demo from "./Demo";
 
 // Configuracion de animaciones de Lottie, se puede pasar directo el noteData, pero para
 // usar mas de un 'Lottie', conviene manejarlos de manera separada.
@@ -18,7 +22,11 @@ const Landing = () => {
   return (
     <Fragment>
       {/* Lottie Component */}
-      <Lottie options={{ animationData: noteData, ...defaultOptions }} width={150} height={150} />
+      <Lottie
+        options={{ animationData: noteData, ...defaultOptions }}
+        width={250}
+        height={250}
+      />
       <h3>Vista Animales</h3>
       <div className="row">
         <div className="col-12 col-md-9">
@@ -39,53 +47,8 @@ const Landing = () => {
         </div>
       </div>
       <br />
-      <div className="row pt-10">
-        <div className="col-12 col-md-4">
-          <div class="card" style={{ width: "14rem" }}>
-            <img
-              src="https://via.placeholder.com/350"
-              // className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-4">
-          <div class="card" style={{ width: "14rem" }}>
-            <img
-              src="https://via.placeholder.com/350"
-              // className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-4">
-          <div class="card" style={{ width: "14rem" }}>
-            <img
-              src="https://via.placeholder.com/350"
-              // className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Cards />
+      {/* <Demo /> */}
     </Fragment>
   );
 };

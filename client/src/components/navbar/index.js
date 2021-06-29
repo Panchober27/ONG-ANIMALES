@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/img/logo.svg";
 
 const NavBar = () => {
   return (
@@ -7,7 +8,7 @@ const NavBar = () => {
       <div className="container-fluid">
         <NavLink to="/" style={{ textDecoration: "none" }}>
           <a className="navbar-brand" href="#">
-            ONG ANIMALES🐱‍👤
+            ONG ANIMALES<img src={logo} width="30px" alt="app logo" />
           </a>
         </NavLink>
         <button

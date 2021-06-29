@@ -11,10 +11,6 @@ const Animals = () => {
   // Mostrando listado de prueba.
   const [animals, setAnimals] = useState([]);
 
-  useEffect(() => {
-    getAnimals();
-  }, []);
-
   const getAnimals = async () => {
     const data = await fetch("http://localhost:3300/adoptionlistR");
     const animalList = await data.json();
