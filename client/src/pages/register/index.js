@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Register = () => {
   /**
    * Agregar React Hook Form para realizar las validaciones de los formularios.
    */
+
+  // Esta constante es para almacenar la sesion que firebase me entrega, para luego
+  // enviarla al server y que a su vez este envie dicha info a MongoDB :)
+  // Recordar que la info de sesiones estara en Mongo y la info de Usuario y Animales en MySQL
+  const [user, setUser] = useState();
 
   return (
     <form className="row g-3">
@@ -27,7 +32,7 @@ const Register = () => {
       </div>
       <div className="col-md-6">
         <label for="inputPassword4" className="form-label">
-        Confirmar Password
+          Confirmar Password
         </label>
         <input type="password" className="form-control" id="inputPassword4" />
       </div>
@@ -39,7 +44,7 @@ const Register = () => {
       </div>
       <div className="col-md-6">
         <label for="inputPassword4" className="form-label">
-        Apellido Materno
+          Apellido Materno
         </label>
         <input type="text" className="form-control" id="inputPassword4" />
       </div>
