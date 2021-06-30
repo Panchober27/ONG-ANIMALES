@@ -1,9 +1,27 @@
 import React from "react";
+import Lottie from "react-lottie";
+import noteData from "../../assets/lotties/48907-love-letter.json";
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYmid slice",
+  },
+};
 
 const Donations = () => {
   return (
     <form className="row g-3">
-      <h2>Donaciones</h2>
+      <h1 style={{ textAlign: "center" }}>Donaciones</h1>
+      <Lottie
+        options={{ animationData: noteData, ...defaultOptions }}
+        width={500}
+        height={500}
+      />
+
+      <p>Lottie animation</p>
+
       <div className="col-md-6">
         <label for="inputName" className="form-label">
           Nombre
