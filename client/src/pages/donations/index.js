@@ -19,9 +19,7 @@ const Donations = () => {
         width={500}
         height={500}
       />
-
-      <p>Lottie animation</p>
-
+      <p></p>
       <div className="col-md-6">
         <label for="inputName" className="form-label">
           Nombre
