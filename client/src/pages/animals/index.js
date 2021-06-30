@@ -17,13 +17,22 @@ const Animals = () => {
     setAnimals(animalList);
   };
 
+  useEffect(() => {
+    getAnimals();
+  }, []);
+
+  // Revision de animals!
+  const animal = animals.length ? animals[0] : {};
+
+  let x = "xxx";
+
   return (
     <Fragment>
       <h1>Animales</h1>
       <div className="row">
         <div className="col-12 col-md-6">
           {/* <Table /> */}
-          <SingleAnimal />
+          <SingleAnimal animal={animal} />
         </div>
         <div className="col-12 col-md-6">
           <h4>Listado Animales Para Adopción</h4>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Cards from "./Cards";
+// import Cards2 from './Cards2'
 import Carousel from "./Carousel";
 import angryDog from "../../assets/img/perro-enojon.png";
 import Lottie from "react-lottie";
